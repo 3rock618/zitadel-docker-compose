@@ -6,5 +6,7 @@ has been non-functioning for new deployments for some months and many people wer
 
 The main point of the fix is to revert to login v1:
 
+```yaml
 environment:
   ZITADEL_DEFAULTINSTANCE_FEATURES_LOGINV2_REQUIRED: "false"
+```
